@@ -1,3 +1,5 @@
+# MOwNiT: Algorytmy aproksymacji w analizie szeregów czasowych
+
 import numpy as np
 import matplotlib.lines as mlines
 import matplotlib.pyplot as plt

@@ -13,7 +13,7 @@ n_timestamps = 24 # znaczniki czasowe
 rgn = np.random.RandomState(41)
 X = rgn.randn(n_samples, n_timestamps) # generowanie losowych danych
 
-n_bins = 3 # liczba interwałów kwantyzacji
+n_bins = 5 # liczba interwałów kwantyzacji
 sax = SymbolicAggregateApproximation(n_bins=n_bins, strategy='normal')
 X_sax = sax.fit_transform(X)
 
